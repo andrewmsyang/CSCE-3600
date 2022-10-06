@@ -1,0 +1,953 @@
+Script started on 2020-02-03 09:57:15-0600
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ ls -l[K1[Kl[K1 > sede[Kfile.tz[Kxt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ ls -1 > sedfile.txt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ ls -1 > sedfile.txt[1P[1@l
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ sed -i "s/^-/R/g" sedfile.txt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ sed -n 1,10p sedfile.txt
+total 316
+Rrw-rw---- 1 ay0123 ay0123     16 May 15  2019 forecast1.txt
+Rrw-rw---- 1 ay0123 ay0123     24 May 15  2019 forecast2.txt
+Rrw-rw---- 1 ay0123 ay0123     40 May 15  2019 forecast3.txt
+Rrw-rw---- 1 ay0123 ay0123    987 May 15  2019 forest1_out.txt
+Rrw-rw---- 1 ay0123 ay0123     74 May 15  2019 forest1.txt
+Rrw-rw---- 1 ay0123 ay0123   2295 May 15  2019 forest2_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest2.txt
+Rrw-rw---- 1 ay0123 ay0123   2331 May 15  2019 forest3_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest3.txt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ -n
+-n: command not found
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ sed -i 1d sedfile.txt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ sed -1[Ki '/YOUR PATTERN/ a This is a new line' sedfile.txt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ sed -n 1,10p sedfu[Kile.txt
+Rrw-rw---- 1 ay0123 ay0123     16 May 15  2019 forecast1.txt
+Rrw-rw---- 1 ay0123 ay0123     24 May 15  2019 forecast2.txt
+Rrw-rw---- 1 ay0123 ay0123     40 May 15  2019 forecast3.txt
+Rrw-rw---- 1 ay0123 ay0123    987 May 15  2019 forest1_out.txt
+Rrw-rw---- 1 ay0123 ay0123     74 May 15  2019 forest1.txt
+Rrw-rw---- 1 ay0123 ay0123   2295 May 15  2019 forest2_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest2.txt
+Rrw-rw---- 1 ay0123 ay0123   2331 May 15  2019 forest3_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest3.txt
+Rrwx------ 1 ay0123 ay0123  88108 Jun 24  2019 main
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ ps -ef > gawkfile.txt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk 'NR <= 10' gawfile/[K.txt
+gawk: fatal: cannot open file `gawfile.txt' for reading (No such file or directory)
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk 'NR <= 10' gawfile.txt[Ckfile.txt
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jan19 ?        00:01:46 /sbin/init splash
+root         2     0  0 Jan19 ?        00:00:01 [kthreadd]
+root         6     2  0 Jan19 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 Jan19 ?        00:00:10 [ksoftirqd/0]
+root         8     2  0 Jan19 ?        00:08:45 [rcu_sched]
+root         9     2  0 Jan19 ?        00:00:00 [rcu_bh]
+root        10     2  0 Jan19 ?        00:00:00 [migration/0]
+root        11     2  0 Jan19 ?        00:00:02 [watchdog/0]
+root        12     2  0 Jan19 ?        00:00:00 [cpuhp/0]
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawl[Kk [K[K[K[K[Kgawk 'NR <= 10' gawkfile.txt[1Pfile.txt[6Pps -ef > gawkfile.txtsed -n 1,10p sedfile.txt[32@i '/YOUR PATTERN/ a This is a new line'[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@7[1@4
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ sed -i '/74/ a This is a new line' sedfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pgawk 'NR <= 10' gawkfile.txt[1Pfile.txt[6Pps -ef > gawkfile.txtsed -n 1,10p sedfile.txt
+Rrw-rw---- 1 ay0123 ay0123     16 May 15  2019 forecast1.txt
+Rrw-rw---- 1 ay0123 ay0123     24 May 15  2019 forecast2.txt
+Rrw-rw---- 1 ay0123 ay0123     40 May 15  2019 forecast3.txt
+Rrw-rw---- 1 ay0123 ay0123    987 May 15  2019 forest1_out.txt
+Rrw-rw---- 1 ay0123 ay0123     74 May 15  2019 forest1.txt
+This is a new line
+Rrw-rw---- 1 ay0123 ay0123   2295 May 15  2019 forest2_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest2.txt
+Rrw-rw---- 1 ay0123 ay0123   2331 May 15  2019 forest3_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest3.txt
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ sed -n 1,10p sedfile.txt[22@i '/74/ a This is a new line'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pgawk 'NR <= 10' gawkfile.txt
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jan19 ?        00:01:46 /sbin/init splash
+root         2     0  0 Jan19 ?        00:00:01 [kthreadd]
+root         6     2  0 Jan19 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 Jan19 ?        00:00:10 [ksoftirqd/0]
+root         8     2  0 Jan19 ?        00:08:45 [rcu_sched]
+root         9     2  0 Jan19 ?        00:00:00 [rcu_bh]
+root        10     2  0 Jan19 ?        00:00:00 [migration/0]
+root        11     2  0 Jan19 ?        00:00:02 [watchdog/0]
+root        12     2  0 Jan19 ?        00:00:00 [cpuhp/0]
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk '/ay0123/[K[K[K[K[K[K[K[K[K'END {print NR}' gawfile[K[K[K[Kkfile.txt
+352
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk 'END {print NR}' gawkfile.txt[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@/[1@a[1@y[1@0[1@1[1@2[1@3[1@/[1@{[1@p[1@r[1@i[1@n[1@t[1@ [1@N[1@R[1@ [1P[1@.[1@ [1@$[1@0[1@}[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+gawk: cmd. line:1: /ay0123/{print NR. $0}
+gawk: cmd. line:1:                  ^ syntax error
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk '/ay0123/{print NR. $0}' gawkfile.txt[1P[1@,[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+63 ay0123     416 32721  0 09:50 pts/24   00:00:00 script [options] filename
+64 ay0123     417   416  0 09:50 pts/26   00:00:00 bash -i
+70 ay0123     594   417  0 09:52 pts/26   00:00:00 script [options] filename
+71 ay0123     595   594  0 09:52 pts/27   00:00:00 bash -i
+128 ay0123    1545   595  0 09:57 pts/27   00:00:00 script [options] filename
+129 ay0123    1546  1545  0 09:57 pts/35   00:00:00 bash -i
+201 ay0123    3023  1546  0 10:05 pts/35   00:00:00 ps -ef
+345 root     32183  1213  0 09:45 ?        00:00:00 sshd: ay0123 [priv]
+346 ay0123   32253 32183  0 09:45 ?        00:00:00 sshd: ay0123@notty
+347 ay0123   32254 32253  0 09:45 ?        00:00:00 /usr/lib/openssh/sftp-server
+348 root     32660  1213  0 09:46 ?        00:00:00 sshd: ay0123 [priv]
+349 ay0123   32720 32660  0 09:46 ?        00:00:00 sshd: ay0123@pts/24
+350 ay0123   32721 32720  0 09:46 pts/24   00:00:00 -bash
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ whoami
+ay0123
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ whoamigawk '/ay0123/{print NR, $0}' gawkfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwhoami[Kgawk '/ay0123/{print NR, $0}' gawkfile.txt[1@$[1@l[1@ [1@~[C[1P[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K /Y[Kay0123/{print NR, $0}' gawkfile.txt
+63 ay0123     416 32721  0 09:50 pts/24   00:00:00 script [options] filename
+64 ay0123     417   416  0 09:50 pts/26   00:00:00 bash -i
+70 ay0123     594   417  0 09:52 pts/26   00:00:00 script [options] filename
+71 ay0123     595   594  0 09:52 pts/27   00:00:00 bash -i
+128 ay0123    1545   595  0 09:57 pts/27   00:00:00 script [options] filename
+129 ay0123    1546  1545  0 09:57 pts/35   00:00:00 bash -i
+201 ay0123    3023  1546  0 10:05 pts/35   00:00:00 ps -ef
+346 ay0123   32253 32183  0 09:45 ?        00:00:00 sshd: ay0123@notty
+347 ay0123   32254 32253  0 09:45 ?        00:00:00 /usr/lib/openssh/sftp-server
+349 ay0123   32720 32660  0 09:46 ?        00:00:00 sshd: ay0123@pts/24
+350 ay0123   32721 32720  0 09:46 pts/24   00:00:00 -bash
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk 'MN[K[KNF > 8 {print NR, NF}' gawkfile.txt
+2 9
+61 11
+62 9
+63 10
+64 9
+68 10
+70 10
+71 9
+72 10
+75 9
+76 9
+79 9
+80 10
+81 9
+84 14
+85 9
+86 12
+87 9
+89 9
+90 9
+91 9
+92 9
+94 9
+95 10
+96 9
+98 10
+99 9
+101 10
+102 9
+104 9
+105 10
+106 10
+108 18
+109 10
+110 10
+111 10
+112 15
+113 9
+114 9
+116 9
+118 10
+119 11
+120 9
+121 9
+123 10
+124 10
+125 10
+126 9
+128 10
+129 9
+130 15
+132 9
+133 12
+134 9
+136 12
+138 9
+142 10
+146 11
+147 10
+151 9
+155 10
+156 9
+158 10
+160 10
+161 9
+163 9
+164 9
+165 9
+167 9
+168 9
+169 10
+170 9
+172 10
+173 9
+175 9
+176 10
+177 10
+178 9
+179 9
+183 9
+185 10
+186 9
+188 10
+189 9
+191 10
+192 9
+194 10
+195 9
+197 10
+198 9
+201 9
+202 10
+203 9
+205 9
+206 9
+207 9
+208 9
+209 10
+210 9
+212 10
+213 9
+215 9
+216 9
+217 12
+221 9
+223 9
+225 10
+226 9
+229 9
+230 9
+231 10
+232 9
+234 10
+235 9
+237 9
+238 9
+241 9
+242 9
+243 9
+244 9
+245 9
+246 9
+247 9
+248 9
+249 10
+250 9
+252 9
+253 9
+254 9
+255 9
+256 9
+257 9
+261 9
+262 9
+263 9
+264 9
+265 9
+266 9
+274 10
+275 9
+277 10
+278 9
+280 9
+281 9
+282 9
+283 10
+284 10
+285 10
+286 9
+288 9
+289 9
+290 9
+292 9
+294 9
+295 9
+296 10
+297 9
+298 9
+299 9
+300 9
+301 9
+302 10
+303 9
+306 9
+307 9
+308 10
+309 9
+311 10
+312 9
+314 10
+315 10
+316 9
+318 9
+321 10
+322 9
+325 10
+326 9
+328 10
+330 9
+332 9
+333 9
+334 10
+335 9
+337 9
+338 9
+339 10
+340 9
+342 10
+343 9
+345 10
+346 9
+348 10
+349 9
+351 10
+352 9
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk 'NF .[K> 8 {for(i=[K[Ki = 9; i <= NF; i++) print NR, NF, $i}' gawkfile.txt
+2 9 splash
+61 11 /run/vmblock-fuse
+61 11 -o
+61 11 rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+62 9 jan15B.c
+63 10 [options]
+63 10 filename
+64 9 -i
+68 10 -f
+68 10 -w
+70 10 [options]
+70 10 filename
+71 9 -i
+72 10 ss1823
+72 10 [priv]
+75 9 ss1823@pts/28
+76 9 --filter-policy=strict
+79 9 --foreground
+80 10 /usr/bin/networkd-dispatcher
+80 10 --run-startup-triggers
+81 9 -f
+84 14 --system
+84 14 --address=systemd:
+84 14 --nofork
+84 14 --nopidfile
+84 14 --systemd-activation
+84 14 --syslog-only
+85 9 --no-daemon
+86 12 -u
+86 12 -s
+86 12 -O
+86 12 /run/wpa_supplicant
+87 9 -n
+89 9 rec03.c
+90 9 -i
+91 9 rec03
+92 9 -i
+94 9 --no-debug
+95 10 jeh0289
+95 10 [priv]
+96 9 jeh0289@pts/31
+98 10 jm1396
+98 10 [priv]
+99 9 jm1396@notty
+101 10 jsm0320
+101 10 [priv]
+102 9 jsm0320@pts/32
+104 9 -f
+105 10 /usr/share/unattended-upgrades/unattended-upgrade-shutdown
+105 10 --wait-for-signal
+106 10 jm1396
+106 10 [priv]
+108 18 -core
+108 18 :0
+108 18 -seat
+108 18 seat0
+108 18 -auth
+108 18 /var/run/lightdm/root/:0
+108 18 -nolisten
+108 18 tcp
+108 18 vt7
+108 18 -novtswitch
+109 10 --pid-file
+109 10 /var/run/autofs.pid
+110 10 running
+110 10 [cse01.local]
+111 10 chroot
+111 10 helper
+112 15 -o
+112 15 -p
+112 15 --
+112 15 \u
+112 15 --noclear
+112 15 tty1
+112 15 linux
+113 9 -D
+114 9 jm1396@pts/34
+116 9 --test
+118 10 jsm0320
+118 10 [priv]
+119 11 --session-child
+119 11 16
+119 11 19
+120 9 --no-daemon
+121 9 jsm0320@notty
+123 10 jmj0264
+123 10 [priv]
+124 10 ajs0385
+124 10 [priv]
+125 10 /usr/lib/lightdm/lightdm-greeter-session
+125 10 /usr/sbin/unity-greeter
+126 9 ajs0385@pts/13
+128 10 [options]
+128 10 filename
+129 9 -i
+130 15 --syslog
+130 15 --fork
+130 15 --print-pid
+130 15 5
+130 15 --print-address
+130 15 7
+130 15 --session
+132 9 --launch-immediately
+133 12 --config-file=/usr/share/defaults/at-spi2/accessibility.conf
+133 12 --nofork
+133 12 --print-address
+133 12 3
+134 9 --use-gnome-session
+136 12 /var/lib/lightdm/.gvfs
+136 12 -f
+136 12 -o
+136 12 big_writes
+138 9 jmj0264@pts/36
+142 10 fi0037
+142 10 [priv]
+146 11 --session-child
+146 11 15
+146 11 20
+147 10 --start
+147 10 --log-target=syslog
+151 9 fi0037@pts/15
+155 10 pcp0019
+155 10 [priv]
+156 9 pcp0019@notty
+158 10 fi0037
+158 10 [priv]
+160 10 bat0021
+160 10 [priv]
+161 9 fi0037@notty
+163 9 -f
+164 9 -f
+165 9 bat0021@pts/0
+167 9 rec03
+168 9 -i
+169 10 am1529
+169 10 [priv]
+170 9 am1529@notty
+172 10 mez0029
+172 10 [priv]
+173 9 mez0029@pts/37
+175 9 prat.cpp
+176 10 jm1396
+176 10 [priv]
+177 10 [options]
+177 10 rec03
+178 9 -i
+179 9 jm1396@notty
+183 9 server.c
+185 10 tpa0016
+185 10 [priv]
+186 9 tpa0016@notty
+188 10 tpa0016
+188 10 [priv]
+189 9 tpa0016@notty
+191 10 tpa0016
+191 10 [priv]
+192 9 tpa0016@pts/17
+194 10 cwc0140
+194 10 [priv]
+195 9 cwc0140@notty
+197 10 cwc0140
+197 10 [priv]
+198 9 cwc0140@pts/20
+201 9 -ef
+202 10 vsp0019
+202 10 [priv]
+203 9 vsp0019@notty
+205 9 --no-notify
+206 9 callback]
+207 9 -f
+208 9 -f
+209 10 cbc0195
+209 10 [priv]
+210 9 cbc0195@notty
+212 10 cbc0195
+212 10 [priv]
+213 9 cbc0195@pts/21
+215 9 -f
+216 9 -f
+217 12 /usr/sbin/denyhosts
+217 12 --daemon
+217 12 --purge
+217 12 --config=/etc/denyhosts.conf
+221 9 -l
+223 9 -l
+225 10 jhd0044
+225 10 [priv]
+226 9 jhd0044@pts/2
+229 9 -f
+230 9 -f
+231 10 bj0141
+231 10 [priv]
+232 9 bj0141@notty
+234 10 brv0026
+234 10 [priv]
+235 9 brv0026@pts/1
+237 9 -f
+238 9 -f
+241 9 -f
+242 9 -f
+243 9 -f
+244 9 -f
+245 9 -f
+246 9 -f
+247 9 -f
+248 9 -f
+249 10 jhd0044
+249 10 [priv]
+250 9 jhd0044@notty
+252 9 -f
+253 9 -f
+254 9 -f
+255 9 -f
+256 9 -f
+257 9 -f
+261 9 -f
+262 9 -f
+263 9 -f
+264 9 -f
+265 9 -f
+266 9 -f
+274 10 mir0028
+274 10 [priv]
+275 9 mir0028@notty
+277 10 mir0028
+277 10 [priv]
+278 9 mir0028@pts/6
+280 9 -f
+281 9 -f
+282 9 -f
+283 10 ccs0201
+283 10 [priv]
+284 10 jl0844
+284 10 [priv]
+285 10 jl0844
+285 10 [priv]
+286 9 ccs0201@pts/8
+288 9 jl0844@pts/22
+289 9 -f
+290 9 -f
+292 9 jl0844@notty
+294 9 -f
+295 9 -f
+296 10 jl0844
+296 10 [priv]
+297 9 jl0844@notty
+298 9 -f
+299 9 -f
+300 9 -f
+301 9 -f
+302 10 jds0687
+302 10 [priv]
+303 9 jds0687@pts/10
+306 9 -f
+307 9 -f
+308 10 pkk0027
+308 10 [priv]
+309 9 pkk0027@pts/9
+311 10 awr0047
+311 10 [priv]
+312 9 awr0047@pts/7
+314 10 mir0028
+314 10 [priv]
+315 10 aas0376
+315 10 [priv]
+316 9 mir0028@pts/12
+318 9 aas0376@notty
+321 10 iaa0052
+321 10 [priv]
+322 9 iaa0052@pts/5
+325 10 mba0096
+325 10 [priv]
+326 9 mba0096@pts/14
+328 10 pcp0019
+328 10 [priv]
+330 9 pcp0019@pts/18
+332 9 -f
+333 9 -f
+334 10 via0011
+334 10 [priv]
+335 9 via0011@pts/3
+337 9 rec03.c
+338 9 -i
+339 10 jm1213
+339 10 [priv]
+340 9 jm1213@notty
+342 10 jm1213
+342 10 [priv]
+343 9 jm1213@pts/23
+345 10 ay0123
+345 10 [priv]
+346 9 ay0123@notty
+348 10 ay0123
+348 10 [priv]
+349 9 ay0123@pts/24
+351 10 [options]
+351 10 filename
+352 9 -i
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ gawk 'NF > 8 {for(i = 9; i <= NF; i++) print NR, NF, $i}' gawkfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pprint NR, NF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29@for(i = 9; i <= NF; i++) print NR, NF, $i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K ' [KDe[K[KBegi[K[K[KEGIN {OFS = "\t'[K"}; [[K{print $1,$3,$2 $3,$2[C[C[C $2[C[C.[K, $4, $5, $6, $7, $8}' gawkfile.txt
+UID	PPID	PID	C	STIME	TTY	TIME	CMD
+root	0	1	0	Jan19	?	00:01:46	/sbin/init
+root	0	2	0	Jan19	?	00:00:01	[kthreadd]
+root	2	6	0	Jan19	?	00:00:00	[mm_percpu_wq]
+root	2	7	0	Jan19	?	00:00:10	[ksoftirqd/0]
+root	2	8	0	Jan19	?	00:08:45	[rcu_sched]
+root	2	9	0	Jan19	?	00:00:00	[rcu_bh]
+root	2	10	0	Jan19	?	00:00:00	[migration/0]
+root	2	11	0	Jan19	?	00:00:02	[watchdog/0]
+root	2	12	0	Jan19	?	00:00:00	[cpuhp/0]
+root	2	13	0	Jan19	?	00:00:00	[cpuhp/1]
+root	2	14	0	Jan19	?	00:00:02	[watchdog/1]
+root	2	15	0	Jan19	?	00:00:00	[migration/1]
+root	2	16	0	Jan19	?	00:38:55	[ksoftirqd/1]
+root	2	19	0	Jan19	?	00:00:00	[cpuhp/2]
+root	2	20	0	Jan19	?	00:00:01	[watchdog/2]
+root	2	21	0	Jan19	?	00:00:00	[migration/2]
+root	2	22	0	Jan19	?	00:00:10	[ksoftirqd/2]
+root	2	25	0	Jan19	?	00:00:00	[kdevtmpfs]
+root	2	26	0	Jan19	?	00:00:00	[netns]
+root	2	27	0	Jan19	?	00:00:00	[rcu_tasks_kthre]
+root	2	28	0	Jan19	?	00:00:00	[kauditd]
+root	2	32	0	Jan19	?	00:00:02	[khungtaskd]
+root	2	33	0	Jan19	?	00:00:00	[oom_reaper]
+root	2	34	0	Jan19	?	00:00:00	[writeback]
+root	2	35	0	Jan19	?	00:00:00	[kcompactd0]
+root	2	36	0	Jan19	?	00:00:00	[ksmd]
+root	2	37	0	Jan19	?	00:00:00	[khugepaged]
+root	2	38	0	Jan19	?	00:00:00	[crypto]
+root	2	39	0	Jan19	?	00:00:00	[kintegrityd]
+root	2	40	0	Jan19	?	00:00:00	[kblockd]
+root	2	41	0	Jan19	?	00:00:00	[ata_sff]
+root	2	42	0	Jan19	?	00:00:00	[md]
+root	2	43	0	Jan19	?	00:00:00	[edac-poller]
+root	2	44	0	Jan19	?	00:00:00	[devfreq_wq]
+root	2	45	0	Jan19	?	00:00:00	[watchdogd]
+root	2	48	0	Jan19	?	00:00:39	[kswapd0]
+root	2	49	0	Jan19	?	00:00:00	[kworker/u7:0]
+root	2	50	0	Jan19	?	00:00:00	[ecryptfs-kthrea]
+root	2	92	0	Jan19	?	00:00:00	[kthrotld]
+root	2	93	0	Jan19	?	00:00:00	[acpi_thermal_pm]
+root	2	95	0	Jan19	?	00:00:00	[scsi_eh_0]
+root	2	96	0	Jan19	?	00:00:00	[scsi_tmf_0]
+root	2	97	0	Jan19	?	00:00:00	[scsi_eh_1]
+root	2	98	0	Jan19	?	00:00:00	[scsi_tmf_1]
+root	2	100	0	Jan19	?	00:00:00	[ipv6_addrconf]
+root	2	110	0	Jan19	?	00:00:00	[kstrp]
+root	2	127	0	Jan19	?	00:00:00	[charger_manager]
+root	2	197	0	Jan19	?	00:00:00	[mpt_poll_0]
+root	2	198	0	Jan19	?	00:00:00	[mpt/0]
+root	2	203	0	Jan19	?	00:00:00	[scsi_eh_2]
+root	2	204	0	Jan19	?	00:00:00	[scsi_tmf_2]
+root	2	205	0	Jan19	?	00:00:00	[ttm_swap]
+root	2	206	0	Jan19	?	00:00:00	[irq/16-vmwgfx]
+root	2	209	0	Jan19	?	00:02:53	[kworker/2:1H]
+root	2	279	0	Jan19	?	00:00:36	[jbd2/sda1-8]
+root	2	280	0	Jan19	?	00:00:00	[ext4-rsv-conver]
+root	2	333	0	Jan19	?	00:00:00	[rpciod]
+root	2	334	0	Jan19	?	00:00:00	[xprtiod]
+root	1	343	0	Jan19	?	00:00:12	/lib/systemd/systemd-udevd
+root	1	374	0	Jan19	?	00:00:01	vmware-vmblock-fuse
+awr0047	30123	398	0	09:49	pts/7	00:00:00	vi
+ay0123	32721	416	0	09:50	pts/24	00:00:00	script
+ay0123	416	417	0	09:50	pts/26	00:00:00	bash
+root	2	520	0	09:52	?	00:00:00	[kworker/u6:2]
+systemd+	1	554	0	Jan19	?	00:00:01	/lib/systemd/systemd-resolved
+systemd+	1	557	0	Jan19	?	00:00:01	/lib/systemd/systemd-timesyncd
+root	1	559	0	Jan19	?	00:00:02	/sbin/rpcbind
+root	2	592	0	09:52	?	00:00:00	[kworker/1:0]
+ay0123	417	594	0	09:52	pts/26	00:00:00	script
+ay0123	594	595	0	09:52	pts/27	00:00:00	bash
+root	1213	615	0	09:52	?	00:00:00	sshd:
+root	1	681	0	Jan19	?	00:00:00	/usr/bin/VGAuthService
+root	1	687	0	Jan19	?	00:13:23	/usr/bin/vmtoolsd
+ss1823	615	691	0	09:53	?	00:00:00	sshd:
+root	1	692	0	Jan19	?	00:00:00	/usr/sbin/ModemManager
+ss1823	691	693	0	09:53	pts/28	00:00:00	-bash
+root	1	698	0	Jan19	?	00:00:25	/usr/lib/udisks2/udisksd
+root	1	708	0	Jan19	?	00:00:36	/usr/sbin/irqbalance
+root	1	709	0	Jan19	?	00:00:00	/usr/bin/python3
+daemon	1	710	0	Jan19	?	00:00:00	/usr/sbin/atd
+root	1	711	0	Jan19	?	01:04:15	/usr/lib/accountsservice/accounts-daemon
+root	1	713	0	Jan19	?	00:00:54	/lib/systemd/systemd-logind
+message+	1	714	0	Jan19	?	00:03:13	/usr/bin/dbus-daemon
+root	1	737	0	Jan19	?	00:00:00	/usr/sbin/NetworkManager
+root	1	739	0	Jan19	?	00:00:04	/sbin/wpa_supplicant
+syslog	1	754	0	Jan19	?	00:01:09	/usr/sbin/rsyslogd
+root	1	755	0	Jan19	?	00:00:00	/usr/sbin/acpid
+pcp0019	31924	760	0	09:54	pts/11	00:00:00	script
+pcp0019	760	761	0	09:54	pts/29	00:00:00	bash
+pcp0019	761	809	0	09:55	pts/29	00:00:00	script
+pcp0019	809	810	0	09:55	pts/30	00:00:00	bash
+root	2	834	0	09:55	?	00:00:00	[kworker/0:2]
+root	1	835	0	Jan19	?	00:00:30	/usr/lib/policykit-1/polkitd
+root	1213	836	0	09:55	?	00:00:00	sshd:
+jeh0289	836	912	0	09:55	?	00:00:00	sshd:
+jeh0289	912	913	0	09:55	pts/31	00:00:00	-bash
+root	1213	993	0	09:56	?	00:00:00	sshd:
+jm1396	993	1065	0	09:56	?	00:00:00	sshd:
+jm1396	1065	1066	0	09:56	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	1068	0	09:56	?	00:00:00	sshd:
+jsm0320	1068	1138	0	09:56	?	00:00:00	sshd:
+jsm0320	1138	1139	0	09:56	pts/32	00:00:00	-bash
+whoopsie	1	1165	0	Jan19	?	00:00:00	/usr/bin/whoopsie
+root	1	1166	0	Jan19	?	00:00:00	/usr/bin/python3
+root	1213	1178	0	09:56	?	00:00:00	sshd:
+root	1	1185	0	Jan19	?	00:00:08	/usr/sbin/lightdm
+root	1185	1198	0	Jan19	tty7	00:00:12	/usr/lib/xorg/Xorg
+root	1	1203	0	Jan19	?	00:01:08	/usr/sbin/automount
+avahi	1	1206	0	Jan19	?	00:00:07	avahi-daemon:
+avahi	1206	1208	0	Jan19	?	00:00:00	avahi-daemon:
+root	1	1210	0	Jan19	tty1	00:00:00	/sbin/agetty
+root	1	1213	0	Jan19	?	00:00:41	/usr/sbin/sshd
+jm1396	1178	1255	0	09:56	?	00:00:00	sshd:
+jm1396	1255	1259	0	09:56	pts/34	00:00:00	-bash
+kernoops	1	1283	0	Jan19	?	00:00:24	/usr/sbin/kerneloops
+kernoops	1	1285	0	Jan19	?	00:00:24	/usr/sbin/kerneloops
+root	1213	1300	0	09:56	?	00:00:00	sshd:
+root	1185	1307	0	Jan19	?	00:00:01	lightdm
+root	1	1356	0	Jan19	?	00:02:24	/usr/sbin/console-kit-daemon
+jsm0320	1300	1428	0	09:56	?	00:00:00	sshd:
+jsm0320	1428	1429	0	09:56	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	1434	0	09:56	?	00:00:00	sshd:
+root	1213	1437	0	09:57	?	00:00:00	sshd:
+lightdm	1307	1474	0	Jan19	?	00:00:00	/bin/sh
+ajs0385	1437	1507	0	09:57	?	00:00:00	sshd:
+ajs0385	1507	1508	0	09:57	pts/13	00:00:00	-bash
+ay0123	595	1545	0	09:57	pts/27	00:00:00	script
+ay0123	1545	1546	0	09:57	pts/35	00:00:00	bash
+lightdm	1	1557	0	Jan19	?	00:00:01	/usr/bin/dbus-daemon
+lightdm	1474	1560	0	Jan19	?	00:00:28	/usr/sbin/unity-greeter
+lightdm	1	1604	0	Jan19	?	00:00:00	/usr/lib/at-spi2-core/at-spi-bus-launcher
+lightdm	1604	1626	0	Jan19	?	00:00:00	/usr/bin/dbus-daemon
+lightdm	1	1633	0	Jan19	?	00:00:00	/usr/lib/at-spi2-core/at-spi2-registryd
+lightdm	1	1638	0	Jan19	?	00:00:00	/usr/lib/gvfs/gvfsd
+lightdm	1	1645	0	Jan19	?	00:00:00	/usr/lib/gvfs/gvfsd-fuse
+lightdm	1	1655	0	Jan19	?	00:00:00	/usr/lib/dconf/dconf-service
+jmj0264	1434	1663	0	09:57	?	00:00:00	sshd:
+jmj0264	1663	1664	0	09:57	pts/36	00:00:00	-bash
+lightdm	1	1665	0	Jan19	?	00:00:00	nm-applet
+lightdm	1	1670	0	Jan19	?	00:00:08	/usr/lib/unity-settings-daemon/unity-settings-daemon
+root	1213	1676	0	Jan31	?	00:00:00	sshd:
+root	1	1693	0	Jan19	?	00:00:00	/usr/lib/upower/upowerd
+root	1	1696	0	Jan19	?	00:00:05	/usr/lib/packagekit/packagekitd
+colord	1	1709	0	Jan19	?	00:00:00	/usr/lib/colord/colord
+root	1185	1716	0	Jan19	?	00:00:00	lightdm
+lightdm	1	1739	0	Jan19	?	00:00:00	/usr/bin/pulseaudio
+rtkit	1	1740	0	Jan19	?	00:00:14	/usr/lib/rtkit/rtkit-daemon
+lightdm	1739	1755	0	Jan19	?	00:00:00	/usr/lib/i386-linux-gnu/pulse/gconf-helper
+lightdm	1	1757	0	Jan19	?	00:00:01	/usr/lib/i386-linux-gnu/gconf/gconfd-2
+fi0037	1676	1773	0	Jan31	?	00:00:00	sshd:
+fi0037	1773	1774	0	Jan31	pts/15	00:00:00	-bash
+root	2	1814	0	09:57	?	00:00:00	[kworker/1:2]
+root	2	1854	0	09:58	?	00:00:00	[kworker/2:2]
+root	1213	1856	0	09:58	?	00:00:00	sshd:
+pcp0019	1856	1915	0	09:58	?	00:00:00	sshd:
+pcp0019	1915	1916	0	09:58	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	1917	0	Jan31	?	00:00:00	sshd:
+root	2	1918	0	Jan19	?	00:00:00	[nfsiod]
+root	1213	1975	0	10:00	?	00:00:00	sshd:
+fi0037	1917	1982	0	Jan31	?	00:00:00	sshd:
+fi0037	1982	1983	0	Jan31	?	00:00:00	/usr/lib/openssh/sftp-server
+root	27042	2015	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	2015	2016	0	Feb02	?	00:00:00	/usr/sbin/CRON
+bat0021	1975	2049	0	10:00	?	00:00:00	sshd:
+bat0021	2049	2050	0	10:00	pts/0	00:00:00	-bash
+pcp0019	810	2086	0	10:00	pts/30	00:00:00	script
+pcp0019	2086	2087	0	10:00	pts/4	00:00:00	bash
+root	1213	2111	0	10:00	?	00:00:00	sshd:
+am1529	2111	2181	0	10:00	?	00:00:00	sshd:
+am1529	2181	2182	0	10:00	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	2184	0	10:00	?	00:00:00	sshd:
+mez0029	2184	2253	0	10:00	?	00:00:00	sshd:
+mez0029	2253	2254	0	10:00	pts/37	00:00:00	-bash
+jmj0264	1664	2302	0	10:01	pts/36	00:00:00	nano
+root	1213	2331	0	10:01	?	00:00:00	sshd:
+jsm0320	1139	2333	0	10:01	pts/32	00:00:00	script
+jsm0320	2333	2334	0	10:01	pts/38	00:00:00	bash
+jm1396	2331	2408	0	10:01	?	00:00:00	sshd:
+jm1396	2408	2409	0	10:01	?	00:00:00	/usr/lib/openssh/sftp-server
+root	2	2472	0	10:02	?	00:00:00	[kworker/0:0]
+root	2	2492	0	10:02	?	00:00:00	[kworker/1:1]
+iaa0052	30779	2493	0	10:02	pts/5	00:00:00	nano
+root	2	2506	0	10:03	?	00:00:00	[kworker/u6:3]
+root	1213	2507	0	10:03	?	00:00:00	sshd:
+tpa0016	2507	2577	0	10:03	?	00:00:00	sshd:
+tpa0016	2577	2579	0	10:03	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	2592	0	10:03	?	00:00:00	sshd:
+tpa0016	2592	2652	0	10:03	?	00:00:00	sshd:
+tpa0016	2652	2654	0	10:03	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	2659	0	10:03	?	00:00:00	sshd:
+tpa0016	2659	2717	0	10:03	?	00:00:00	sshd:
+tpa0016	2717	2718	0	10:03	pts/17	00:00:00	-bash
+root	1213	2762	0	10:03	?	00:00:00	sshd:
+cwc0140	2762	2831	0	10:03	?	00:00:00	sshd:
+cwc0140	2831	2832	0	10:03	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	2900	0	10:04	?	00:00:00	sshd:
+cwc0140	2900	2959	0	10:04	?	00:00:00	sshd:
+cwc0140	2959	2960	0	10:04	pts/20	00:00:00	-bash
+root	2	2998	0	10:04	?	00:00:00	[kworker/2:1]
+ay0123	1546	3023	0	10:05	pts/35	00:00:00	ps
+root	1213	3316	0	Jan29	?	00:00:00	sshd:
+vsp0019	3316	3382	0	Jan29	?	00:00:00	sshd:
+vsp0019	3382	3383	0	Jan29	?	00:00:00	/usr/lib/openssh/sftp-server
+statd	1	4776	0	Jan19	?	00:00:00	/sbin/rpc.statd
+root	2	4938	0	Jan20	?	00:00:00	[NFSv4
+root	27042	5788	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	5788	5790	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	1213	5814	0	Jan31	?	00:00:00	sshd:
+cbc0195	5814	5894	0	Jan31	?	00:00:00	sshd:
+cbc0195	5894	5895	0	Jan31	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	5896	0	Jan31	?	00:00:00	sshd:
+cbc0195	5896	5956	0	Jan31	?	00:00:01	sshd:
+cbc0195	5956	5957	0	Jan31	pts/21	00:00:00	-bash
+root	27042	6632	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	6632	6633	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	1	10489	4	Feb02	?	01:25:31	python
+jl0844	1	11230	0	Jan27	?	00:00:00	SCREEN
+jl0844	11230	11231	0	Jan27	pts/16	00:00:00	/bin/bash
+jl0844	11230	11630	0	Jan27	pts/19	00:00:00	/bin/bash
+jl0844	1	12499	0	Jan27	?	00:00:00	SCREEN
+jl0844	12499	12500	0	Jan27	pts/33	00:00:00	/bin/bash
+root	1	13494	0	00:09	?	00:00:00	/usr/sbin/cupsd
+root	1	13495	0	00:09	?	00:00:00	/usr/sbin/cups-browsed
+root	1213	16427	0	Jan20	?	00:00:01	sshd:
+jhd0044	16427	16501	0	Jan20	?	00:00:05	sshd:
+jhd0044	16501	16502	0	Jan20	pts/2	00:00:00	-bash
+root	2	17592	0	Jan28	?	00:00:00	[kworker/1:1H]
+root	27042	17627	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	17627	17629	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	1213	18084	0	Jan27	?	00:00:00	sshd:
+bj0141	18084	18155	0	Jan27	?	00:00:01	sshd:
+bj0141	18155	18156	0	Jan27	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	18157	0	Feb02	?	00:00:00	sshd:
+brv0026	18157	18230	0	Feb02	?	00:00:00	sshd:
+brv0026	18230	18231	0	Feb02	pts/1	00:00:00	-bash
+root	27042	18425	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	18425	18426	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	2	19637	0	02:13	?	00:00:01	[kworker/2:0]
+root	2	19861	0	Jan28	?	00:09:49	[kworker/1:0H]
+root	27042	20944	0	03:17	?	00:00:00	/usr/sbin/CRON
+root	20944	20945	0	03:17	?	00:00:00	/usr/sbin/CRON
+root	27042	21705	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	21705	21706	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	27042	21883	0	04:17	?	00:00:00	/usr/sbin/CRON
+root	21883	21884	0	04:17	?	00:00:00	/usr/sbin/CRON
+root	27042	22788	0	05:17	?	00:00:00	/usr/sbin/CRON
+root	22788	22789	0	05:17	?	00:00:00	/usr/sbin/CRON
+root	1213	23294	0	Jan31	?	00:00:00	sshd:
+jhd0044	23294	23354	0	Jan31	?	00:00:00	sshd:
+jhd0044	23354	23355	0	Jan31	?	00:00:00	/usr/lib/openssh/sftp-server
+root	27042	24371	0	07:09	?	00:00:00	/usr/sbin/CRON
+root	24371	24373	0	07:09	?	00:00:00	/usr/sbin/CRON
+root	27042	24433	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	24433	24436	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	27042	24883	0	07:17	?	00:00:00	/usr/sbin/CRON
+root	24883	24884	0	07:17	?	00:00:00	/usr/sbin/CRON
+root	2	24917	0	Jan28	?	00:00:00	[kworker/0:0H]
+root	2	25766	0	Jan28	?	00:00:15	[kworker/0:1H]
+root	2	25986	0	Jan28	?	00:00:00	[kworker/2:2H]
+root	27042	26195	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	26195	26198	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	27042	26546	0	08:09	?	00:00:00	/usr/sbin/CRON
+root	27042	26547	0	08:09	?	00:00:00	/usr/sbin/CRON
+root	26546	26548	0	08:09	?	00:00:00	/usr/sbin/CRON
+root	26547	26549	0	08:09	?	00:00:00	/usr/sbin/CRON
+root	2	26606	0	Jan30	?	00:00:00	[xfsalloc]
+root	2	26612	0	Jan30	?	00:00:00	[xfs_mru_cache]
+root	2	26618	0	Jan30	?	00:00:00	[jfsIO]
+root	2	26619	0	Jan30	?	00:00:00	[jfsCommit]
+root	2	26620	0	Jan30	?	00:00:00	[jfsCommit]
+root	2	26621	0	Jan30	?	00:00:00	[jfsCommit]
+root	2	26622	0	Jan30	?	00:00:00	[jfsSync]
+root	1213	26640	0	08:09	?	00:00:00	sshd:
+mir0028	26640	26709	0	08:09	?	00:00:00	sshd:
+mir0028	26709	26711	0	08:09	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	26816	0	08:10	?	00:00:00	sshd:
+mir0028	26816	26875	0	08:10	?	00:00:00	sshd:
+mir0028	26875	26876	0	08:10	pts/6	00:00:00	-bash
+root	1	27042	0	Jan28	?	00:00:01	/usr/sbin/cron
+root	27042	27083	0	08:17	?	00:00:00	/usr/sbin/CRON
+root	27083	27084	0	08:17	?	00:00:00	/usr/sbin/CRON
+root	1213	27395	0	08:26	?	00:00:00	sshd:
+root	1213	27423	0	Feb02	?	00:00:00	sshd:
+root	1213	27441	0	Feb02	?	00:00:00	sshd:
+ccs0201	27395	27465	0	08:26	?	00:00:00	sshd:
+ccs0201	27465	27466	0	08:26	pts/8	00:00:00	-bash
+jl0844	27423	27486	0	Feb02	?	00:00:00	sshd:
+root	27042	27516	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	27516	27518	0	Feb02	?	00:00:00	/usr/sbin/CRON
+jl0844	27486	27545	0	Feb02	pts/22	00:00:00	-bash
+jl0844	27441	27546	0	Feb02	?	00:00:00	sshd:
+jl0844	27546	27564	0	Feb02	?	00:00:00	/usr/lib/openssh/sftp-server
+root	27042	27653	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	27653	27654	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	1213	27945	0	Feb02	?	00:00:00	sshd:
+jl0844	27945	28004	0	Feb02	?	00:00:01	sshd:
+root	27042	28063	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	28063	28064	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	27042	28960	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	28960	28961	0	Feb02	?	00:00:00	/usr/sbin/CRON
+root	1213	29053	0	Jan31	?	00:00:00	sshd:
+jds0687	29053	29123	0	Jan31	?	00:00:00	sshd:
+jds0687	29123	29124	0	Jan31	pts/10	00:00:00	-bash
+root	2	29283	0	09:06	?	00:00:00	[kworker/u6:1]
+root	27042	29338	0	09:09	?	00:00:00	/usr/sbin/CRON
+root	29338	29341	0	09:09	?	00:00:00	/usr/sbin/CRON
+root	1213	29388	0	09:10	?	00:00:00	sshd:
+pkk0027	29388	29458	0	09:10	?	00:00:00	sshd:
+pkk0027	29458	29459	0	09:10	pts/9	00:00:00	-bash
+root	1213	30045	0	09:15	?	00:00:00	sshd:
+awr0047	30045	30122	0	09:15	?	00:00:00	sshd:
+awr0047	30122	30123	0	09:15	pts/7	00:00:00	-bash
+root	1213	30268	0	09:17	?	00:00:00	sshd:
+root	1213	30294	0	Jan31	?	00:00:00	sshd:
+mir0028	30268	30328	0	09:17	?	00:00:00	sshd:
+mir0028	30328	30329	0	09:17	pts/12	00:00:00	-bash
+aas0376	30294	30363	0	Jan31	?	00:00:00	sshd:
+aas0376	30363	30364	0	Jan31	?	00:00:00	/usr/lib/openssh/sftp-server
+root	2	30582	0	09:28	?	00:00:00	[kworker/0:1]
+root	1213	30707	0	09:33	?	00:00:00	sshd:
+iaa0052	30707	30778	0	09:33	?	00:00:00	sshd:
+iaa0052	30778	30779	0	09:33	pts/5	00:00:00	-bash
+root	1	31049	0	Jan28	?	00:02:35	/lib/systemd/systemd-journald
+root	1213	31062	0	09:37	?	00:00:00	sshd:
+mba0096	31062	31153	0	09:37	?	00:00:00	sshd:
+mba0096	31153	31154	0	09:37	pts/14	00:00:00	-bash
+root	1213	31304	0	09:38	?	00:00:00	sshd:
+root	2	31306	0	09:38	?	00:00:00	[kworker/u6:0]
+pcp0019	31304	31379	0	09:38	?	00:00:00	sshd:
+pcp0019	31379	31380	0	09:38	pts/18	00:00:00	-bash
+root	27042	31430	0	09:39	?	00:00:00	/usr/sbin/CRON
+root	31430	31432	0	09:39	?	00:00:00	/usr/sbin/CRON
+root	1213	31742	0	09:42	?	00:00:00	sshd:
+via0011	31742	31816	0	09:42	?	00:00:00	sshd:
+via0011	31816	31817	0	09:42	pts/3	00:00:00	-bash
+pcp0019	31380	31923	0	09:43	pts/18	00:00:00	script
+pcp0019	31923	31924	0	09:43	pts/11	00:00:00	bash
+root	1213	31951	0	09:44	?	00:00:00	sshd:
+jm1213	31951	32032	0	09:44	?	00:00:00	sshd:
+jm1213	32032	32033	0	09:44	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	32054	0	09:45	?	00:00:00	sshd:
+jm1213	32054	32119	0	09:45	?	00:00:00	sshd:
+jm1213	32119	32120	0	09:45	pts/23	00:00:00	-bash
+root	1213	32183	0	09:45	?	00:00:00	sshd:
+ay0123	32183	32253	0	09:45	?	00:00:00	sshd:
+ay0123	32253	32254	0	09:45	?	00:00:00	/usr/lib/openssh/sftp-server
+root	1213	32660	0	09:46	?	00:00:00	sshd:
+ay0123	32660	32720	0	09:46	?	00:00:00	sshd:
+ay0123	32720	32721	0	09:46	pts/24	00:00:00	-bash
+jm1213	32120	32762	0	09:47	pts/23	00:00:00	script
+jm1213	32762	32763	0	09:47	pts/25	00:00:00	bash
+]0;ay0123@cse01: ~/2100/Project1ay0123@cse01:~/2100/Project1$ exit
+exit
+
+Script done on 2020-02-03 10:17:55-0600

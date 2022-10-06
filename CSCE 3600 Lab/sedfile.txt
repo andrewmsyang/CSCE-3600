@@ -1,0 +1,16 @@
+Rrw-rw---- 1 ay0123 ay0123     16 May 15  2019 forecast1.txt
+Rrw-rw---- 1 ay0123 ay0123     24 May 15  2019 forecast2.txt
+Rrw-rw---- 1 ay0123 ay0123     40 May 15  2019 forecast3.txt
+Rrw-rw---- 1 ay0123 ay0123    987 May 15  2019 forest1_out.txt
+Rrw-rw---- 1 ay0123 ay0123     74 May 15  2019 forest1.txt
+This is a new line
+Rrw-rw---- 1 ay0123 ay0123   2295 May 15  2019 forest2_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest2.txt
+Rrw-rw---- 1 ay0123 ay0123   2331 May 15  2019 forest3_out.txt
+Rrw-rw---- 1 ay0123 ay0123    130 May 15  2019 forest3.txt
+Rrwx------ 1 ay0123 ay0123  88108 Jun 24  2019 main
+Rrw-rw---- 1 ay0123 ay0123   9613 Jun 24  2019 main.cpp
+Rrw------- 1 ay0123 ay0123 175656 Jun 24  2019 main.o
+Rrw-rw---- 1 ay0123 ay0123     83 Jun 23  2019 Makefile
+Rrw-rw---- 1 ay0123 ay0123    307 Jun 24  2019 README.txt
+Rrw------- 1 ay0123 ay0123      0 Feb  3 09:59 sedfile.txt
